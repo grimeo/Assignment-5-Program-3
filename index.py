@@ -9,3 +9,12 @@
 # 19 above : Adult
 
 input_Age = int(input("Enter your Age: "))
+
+if input_Age >= 0 and input_Age < 13:
+    print("Age: " + str(input_Age) +"\nStage of Life: Kid")
+elif input_Age >= 13 and input_Age < 18:
+    print("Age: " + str(input_Age) +"\nStage of Life: Teen")
+elif input_Age == 18:
+    print("Age: " + str(input_Age) +"\nStage of Life: Debut")
+elif input_Age >= 19:
+    print("Age: " + str(input_Age) +"\nStage of Life: Adult")
