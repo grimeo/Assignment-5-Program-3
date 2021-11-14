@@ -7,3 +7,5 @@
 # 13 - 17 : Teen
 # 18 : Debut
 # 19 above : Adult
+
+input_Age = int(input("Enter your Age: "))
